@@ -1,0 +1,190 @@
+#container{
+    width: 85%;
+    /*border: 1px solid grey;*/
+    margin:  auto;
+   
+}
+
+h1 a{
+    font-size:50px;
+    font-weight: 100;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    
+
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0px;
+    
+}
+
+#title{
+    float: left;
+}
+
+#searchBox{
+   
+    float: right;
+    size: 50px;
+    background: linear-gradient(#FFEBD0,#FBA92C);
+    width: 400px;
+    height: 40px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+   
+
+}
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 10px;
+    color: #daa520;
+    background: white url(images/LogoMakr-0UvgdM.png) right center no-repeat;
+    border-style: solid;
+    border-color: black;
+}
+
+.text:hover{
+    font-size: 11px;
+}
+
+.submit{
+    size: 6px;
+    float: right;
+    font-weight: bold;
+    background-color: goldenrod;
+    border-style: none;
+    color: black;
+
+}
+
+.submit:hover{
+    font-size: 15px;
+}
+
+
+#menu{
+    height: 80px;
+    background: linear-gradient(#FFEBD0,#FBA92C);
+    padding: 5px 0;
+    margin: 30px 0px;
+}
+
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: black;
+    transition: font-size 0.2s ease;
+
+    
+}
+
+
+
+#menu ul li{
+    list-style: none;
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid black;
+    line-height: 20px;
+
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+}
+
+
+#intro {
+   padding: 30px;
+   margin: 16px 0;
+   background: linear-gradient(#FFEBD0,#FBA92C);
+}
+#intro p{
+    font-size:25px;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+.sidebar ul{
+    padding-top: 8px;
+}
+
+ul{
+    list-style: none;
+}
+.sidebar h1{
+    font-size: 30px;
+}
+
+ul a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: font-size 0.2s linear;
+
+}
+
+a:hover{
+    font-size: 30px;
+    color: red;
+}
+
+
+
+#leftsidebar ul li{
+    padding: 4px 0px 4px 10px;
+    list-style-image: url(images/arrow2-removebg-preview.png);
+}
+
+#leftsidebar{
+    background: linear-gradient(#FFEBD0,#FBA92C);
+    float: left;
+}
+
+#rightsidebar{
+    background: linear-gradient(#FFEBD0,#FBA92C);
+    float: right;
+    
+}
+
+#rightsidebar ul li {
+    list-style-image: url(images/tick2.png);
+}
+.clear{
+    clear: both;
+}
+.footer{
+    height: 60px;
+    padding: 10px 30px;
+    
+    margin-top: 25px;
+    background: linear-gradient(#FFEBD0,#FBA92C);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
